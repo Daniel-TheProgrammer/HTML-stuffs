@@ -1,0 +1,38 @@
+
+  <centre>
+  <div class="items">
+<!-- Block 1 -->
+  <div class="b1 ff t">
+    <div class="logo"> <img src="images/lo.gif"></div>
+    <div class="cont">
+      <div class="tt">Get a cab</div>
+Request a ride of your choice and have it come to your location in minutes.
+ With Ovrr,you can go just you,with others or get a cab for others who are going
+    </div>
+  </div>
+<!-- Block 2 -->
+  <div class="b2 t">
+    <div class="logo"> <img src="images/lo.gif"></div>
+    <div class="cont">
+      <div class="tt">Get food</div>
+Get your favourite meals from the best restaurants in your city and have it delivered to you within minutes
+    </div>
+  </div>
+<!-- Block 3 -->
+  <div class="b3 t">
+    <div class="logo"> <img src="images/lo.gif"></div>
+    <div class="cont">
+      <div class="tt">Send packages</div>
+  Conviniently send packages to both local and inter-urban destinations all at the touch of a button
+    </div>
+  </div>
+  <!-- end of blocks -->
+
+
+
+
+
+
+  <br><br>
+</div>
+</centre>

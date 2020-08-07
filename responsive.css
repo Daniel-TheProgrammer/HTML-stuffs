@@ -1,0 +1,194 @@
+
+    /* Beginning the responsive behavior of this website */
+/* ########## mibile ######## */
+    /*  */
+
+@media screen and (max-width: 777px) {
+    .you-need .meet-ovrr{   
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1050px){
+.last{
+    background-color: blue;
+}
+div.fly .left-fly,.fly p strong{
+    width: 100%;
+    font-weight: 900;
+    color: rgb(42, 42, 42);
+}
+.right-fly{
+    display: none;
+    width: 0%; /* to be very sure */
+}
+.fly{
+    position: relative;
+    margin-left: 40px;
+    width: 100%;
+    text-align: center;
+    background: url(images/rocket.png); opacity: 1;
+    background-position-x: -90px;
+    /* background: transparent; */
+}
+
+}
+@media screen and(min-width: 700px){
+    .open{
+    display: none;
+    }
+    
+  div.top-second input[type=url]{
+      color: rgb(212, 11, 11);
+      text-align: center;
+      font-weight: 600;
+      font-size: 60px;
+  }
+  }
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+@media screen and (min-width: 830px){
+  .open , .open span {
+      display: none;
+  }
+}
+@media screen and (max-width: 830px) {
+  .navbar ul{
+      display: none;
+  }
+  .open{
+      display: block;
+  }
+  .open span{
+      float: right;
+      margin-top: 0px;
+      margin-right: 60px;
+  }
+
+  .bodycontent h2{
+      margin-top: 100px;
+      margin-bottom: 10px;
+      font-size: 35px;
+      font-weight: 600;
+      font-family: Helvetica, sans-serif;
+  }
+  .bodycontent h4{
+      font-size: 23px;
+  }
+  .bodycontent button {
+      font-size: 20px;
+      transition: all 0.5s;
+      height: 50px;
+      width: 150px;
+  }
+  .bodycontent button span{
+      display: inline-block;
+      position: relative;
+      transition: 0.4s;
+}
+.bodycontent button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -7px;
+transition: 0.5s;
+}
+.bodycontent button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.bodycontent button:hover span {
+  padding-right: 20px;
+}
+}
+
+
+@media screen and (max-width: 650px){
+  .bodycontent{
+      font-size: 20px;
+      margin: 15px;
+  }
+  .bodycontent h2{
+      font-size: 29px;
+      margin-bottom: 40px;
+  }
+  .bodycontent h4{
+      margin-top: 40px;
+      font-size: 19px;
+  }
+}
+@media screen and (max-width: 550px){
+    div.fly {
+        height: 900px;
+        background-size: cover;
+    }
+  .bodycontent{
+      font-size: 16px;
+      margin: 20px;
+  }
+  .bodycontent h2{
+      font-size: 20px;
+      letter-spacing: 4px;
+      margin-bottom: 30px;
+  }
+  .bodycontent h4{
+      margin-top: 10px;
+      line-break: 3px;
+      letter-spacing: 1px;
+      font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 680px){
+div.fly {
+    height: 960px;
+}
+.box , .box p{
+    text-align: center;
+}
+}
+@media screen and (max-width: 680px){
+    .col-4 {
+        width: 100%;
+        margin: 0;
+    }
+    div.fly {
+        height: 800px;
+        background-size: cover;
+    }    
+footer .row .col-3 , footer ul li{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    .fly ,.contents-fly .left-fly{
+        height: 900px;
+        width: 100%;
+        line-height: 23px;
+    }
+    .fly .left-fly{line-height: 45px;}
+footer .rright a{
+    text-align: center;
+}
+.get-it .apps img{
+    
+    align-items: center;
+}
+footer .row .row-icons img {
+    align-items: center;
+    margin-left: 50px;
+    
+}
+.invisible{
+    display: block;
+}
+
+}

@@ -1,0 +1,45 @@
+
+    .you-need{
+    margin: 30px 70px 500px 70px;
+    font-family: 'Lucida Sans';
+    height: auto;
+    width: 100%;
+    }
+
+.you-need .meet-ovrr{
+    color: rgb(30, 71, 236);
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.you-need .items{
+    width: 100%;
+    height: 150px;
+}
+.you-need .items .t{
+    width: 25%;
+    margin-right: 8%;
+    float: left;
+    text-align: left;
+}
+
+.you-need .items .t .cont{
+    margin-top: 40px;
+    line-height: 35px;
+    font-size: 29px;
+    font-family: sans-serif;
+}
+.you-need .items .t .cont .tt{
+    font-weight: 600;
+}
+.you-need .items .t .logo{
+    height: 140px;
+    background-color: rgb(39, 79, 237);
+    border-radius: 90px;
+    margin-left: 10%;
+    width: 140px;
+}
+.you-need .items .t .logo img{
+    height: 100%;
+    width: 100%;
+}
+
