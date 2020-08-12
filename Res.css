@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    color: rgb(240, 12, 209);
+    font-weight: 600;
+    /* /* /* Change this if you would add things inside */
+    /* /* /* Change this if you would add things inside */
+    /* /* /* Change this if you would add things inside */
+}
+div.in {
+    margin: 4px;
+}
+div {
+    text-align: center;
+}
+div.header{
+    width: 100%;
+    background-color: skyblue;
+    height: 90px;
+    margin-bottom: 4px;
+}
+div.header,.Side-bar,.main-content,.Extra-content,.footer {padding-top: 3%;}
+div.three{
+    width: 100%;
+}
+div.three .Side-bar{
+    width: 30%;
+    background-color: green;
+    float: left;
+    height: 320px;
+}
+div.main-content , div.Extra-content{
+    float: right;
+}
+div.main-content{
+    height: 202px;      /*8px*/
+    background-color: yellow;
+    width: 68%;
+}
+div.Extra-content{
+    height: 68px;
+    background-color: grey;
+    width: 68%;
+}
+div.footer{
+    margin-top: 372px;
+    height: 68px;
+    background-color: orange;
+
+}
+       /*tablet*/
+@media screen and (max-width: 1110px){
+    body{
+        background-color: rgb(177, 158, 158);
+    }
+    div.Extra-content{
+        height: 80px;}
+    div.footer{
+        margin-top: 3803px;
+    }}
+@media screen and (max-width: 887px) {
+    div.Extra-content{
+        width: 100%;}
+    div.main-content{
+        width: 68%;
+        height: 320px;}
+    div.footer{
+        height: 600px;
+        margin-top: 830px;
+    }}
+/* mobile */
+@media screen and (max-width: 857px) {
+    div.main-content{
+        width: 100%;}
+div.Side-bar{width: 100%;}
+}
