@@ -1,19 +1,167 @@
+<!--Created By Daniel theProgrammer-->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Quick Quiz</title>
-    <link rel="stylesheet" href="app.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div id="home" class="flex-center flex-column">
-        <h1>Quick Quiz</h1>
-        <a class="btn" href="/game.html">Play</a>
-        <a class="btn" href="/highscores.html">High Scores</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Portfolio</title>
+  
+        <link rel="stylesheet" href="style.css">
+        <nav>
+            <ul id='navbar'>
+              <li><a href="#welcome-section">About</a></li>
+              <li><a href="#projects">Home</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#gallery">Photo</a></li>
+            </ul>
+         </nav>
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+        <div class="top">
+            <img class="dp" src="img/img27.jpg"/>
+            <p>Daniel TheProgrammer</p>
+        </div>
+
+        <div class="container">
+            <p class="title">About Me</p>
+            <div id="welcome-section" class="intro">
+
+                <h1>Nji Kebei Daniel Koum</h1>
+                <p>I am a Student from the Faculty of Engineering and Technology,Buea|Passionate about tech|A pianist|Quote Writer and A full stack Python web developer.
+                </p>
+              
+              
+              </div>
+
+            </div>
+
+        <div class="container">
+            
+            <p class="title">My Skills</p>
+            <p class="lang">Python</p>
+            <div class="progress">
+                <div class="fill" style="width: 90%;"></div>
+            </div>
+            <p class="lang">Django</p>
+            <div class="progress">
+                <div class="fill" style="width: 92%"></div>
+            </div> 
+
+            <p class="lang">Java:</p>
+            <div class="progress">
+                <div class="fill" style="width: 92%"></div>
+            </div> 
+            <p class="lang">HTML:</p>
+            <div class="progress">
+                <div class="fill" style="width: 98%"></div>
+            </div> 
+            <p class="lang">CSS:<p>
+            <div class="progress">
+                <div class="fill" style="width: 98%"></div>
+            </div> 
+            <p class="lang">JavaScript:</p>
+            <div class="progress">
+                <div class="fill" style="width: 60%"></div>
+            </div> 
+        </div>
+        <div class="container">
+            <p class="title">Contact Page</p>
+            <div id="contact" class="contact">
+                <div class="header">
+                  <h1>Consistency,Dedication and Concentration is the Key</h1>
+                  <p>Code Daily with Me</p>
+                </div>
+
+        <div data-aos="zoom-in" class="section">
+            <li>Mobile:(+237)671062539</li>
+            <li>Email id:njid18753@gmail.com</li>
+        </div>
+        </div>
+        </div>
+    <!--Just Added-->
+    <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="img/img1.JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="img/img2.JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="img/img3.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="img/img4.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="img/img5.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="img/img6.jpg" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="img/img1.JPG" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/img2.JPG" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/img3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/img4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/img5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/img6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
       </div>
     </div>
-  </body>
+  </div>
+
+        <!--end-->
+
+        
+        <div class="bottom">
+            <div>
+                <p>Follow Me On:</p>
+                <div class="social">
+                    <i class="icn fab fa-facebook-square"></i>
+                    <i class="icn fab fa-twitter-square"></i>
+                    <i class="icn fab fa-instagram"></i>
+                    <i class="icn fab fa-linkedin"></i>
+                </div>
+                <p >Copyright || Daniel 2020</p>
+            </div>
+        </div>
+    </body>
 </html>
