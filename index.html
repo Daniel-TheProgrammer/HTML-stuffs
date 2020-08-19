@@ -6,7 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>My Portfolio</title>
-  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Nunito|Patua+One|Satisfy&display=swap" rel="stylesheet"> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js"></script>
+
         <link rel="stylesheet" href="style.css">
         <nav>
             <ul id='navbar'>
@@ -77,78 +82,137 @@
 
         <div data-aos="zoom-in" class="section">
             <li>Mobile:(+237)671062539</li>
-            <li>Email id:njid18753@gmail.com</li>
+            <li>Email </li>
         </div>
         </div>
         </div>
-    <!--Just Added-->
-    <!-- Container for the image gallery -->
-<div class="container">
+        <div class="container">
+            <p class="title">My Gallery</p>
+            <div id="gallery" class="gallery">
+                <div class="header"></div>
+            </div>
+            <p> Some of My Pictures taken with Friends</p>
 
-    <!-- Full-width images with number text -->
-    <div class="mySlides">
-      <div class="numbertext">1 / 6</div>
-        <img src="img/img1.JPG" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">2 / 6</div>
-        <img src="img/img2.JPG" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">3 / 6</div>
-        <img src="img/img3.jpg" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">4 / 6</div>
-        <img src="img/img4.jpg" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">5 / 6</div>
-        <img src="img/img5.jpg" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">6 / 6</div>
-        <img src="img/img6.jpg" style="width:100%">
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-    <!-- Image text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-  
-    <!-- Thumbnail images -->
-    <div class="row">
-      <div class="column">
-        <img class="demo cursor" src="img/img1.JPG" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img/img2.JPG" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img/img3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img/img4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img/img5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img/img6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-      </div>
-    </div>
-  </div>
+            <div data-aos="zoom-in-down" id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
 
-        <!--end-->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/img1.JPG" style="max-height:350px; margin: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/img2.JPG" style="max-height:350px; margin: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/img3.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/img4.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img4.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img5.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img6.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img7.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img8.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img9.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img10.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img11.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img12.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img13.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img14.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img15.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img16.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img17.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img18.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img19.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img20.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img21.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img22.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img23.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img24.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img25.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img26.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img27.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img28.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="img/img29.jpg" style="max-height:350px; margin: auto;">
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
+
+
+    
+
 
         
         <div class="bottom">
