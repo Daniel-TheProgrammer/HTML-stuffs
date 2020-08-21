@@ -1,0 +1,220 @@
+import java.awt.Component;
+import java.awt.Frame;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Color;
+import java.awt.Polygon;
+
+	
+public class Cat1 {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//creating the frame
+		Frame frame = new Frame();
+		// add a componenet with custom paint
+		
+		frame.add(new CustomPaintComponent());
+		
+		// Display frame
+		int frameWidth  = 700;
+		int frameHeight = 700;
+		
+		frame.setSize(frameWidth, frameHeight);
+		
+		frame.setVisible(true);
+
+	}
+	
+	static class CustomPaintComponent extends Component {
+		public void paint (Graphics g) {
+			//retrive graphics content
+			Graphics2D g2d = (Graphics2D)g;
+			//Draw and oval
+			
+			int x=0;
+			int y=0;
+			int w = getSize().width-1;
+			int h = getSize().height-1;
+			
+			int i;
+			int t=0;
+			
+			for (i=0;i<40;i++) {
+				
+				 t=t+70;
+				g2d.drawOval(50+t, 100+i, 70, 40);
+				
+				g2d.drawOval(100+t, 70+i, 40, 40);
+				g2d.drawOval(115+t, 80+i, 10, 10);
+				g2d.fillOval(255);
+				System.out.println("\n\n");
+				
+	
+			}
+						
+			
+		
+			
+		}
+public class Cat2 {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//creating the frame
+		Frame frame = new Frame();
+		// add a componenet with custom paint
+		
+		frame.add(new CustomPaintComponent());
+		
+		// Display frame
+		int frameWidth  = 700;
+		int frameHeight = 700;
+		
+		frame.setSize(frameWidth, frameHeight);
+		
+		frame.setVisible(true);
+
+	}
+	
+	static class CustomPaintComponent extends Component {
+		public void paint (Graphics g) {
+			//retrive graphics content
+			Graphics2D g2d = (Graphics2D)g;
+			//Draw and oval
+			
+			int x=0;
+			int y=0;
+			int w = getSize().width-1;
+			int h = getSize().height-1;
+			
+			int i;
+			int t=0;
+			
+			for (i=0;i<40;i++) {
+				
+				 t=t+70;
+				g2d.drawOval(50+t, 100+i, 70, 40);
+				
+				g2d.drawOval(100+t, 70+i, 40, 40);
+				g2d.drawOval(115+t, 80+i, 10, 10);
+				g2d.fillOval(255);
+				System.out.println("\n\n");
+				
+	
+			}
+						
+			
+		
+			
+		}
+		
+	}
+
+}
+public class Cat3 {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//creating the frame
+		Frame frame = new Frame();
+		// add a componenet with custom paint
+		
+		frame.add(new CustomPaintComponent());
+		
+		// Display frame
+		int frameWidth  = 700;
+		int frameHeight = 700;
+		
+		frame.setSize(frameWidth, frameHeight);
+		
+		frame.setVisible(true);
+
+	}
+	
+	static class CustomPaintComponent extends Component {
+		public void paint (Graphics g) {
+			//retrive graphics content
+			Graphics2D g2d = (Graphics2D)g;
+			//Draw and oval
+			
+			int x=0;
+			int y=0;
+			int w = getSize().width-1;
+			int h = getSize().height-1;
+			
+			int i;
+			int t=0;
+			
+			for (i=0;i<40;i++) {
+				
+				 t=t+70;
+				g2d.drawOval(50+t, 100+i, 70, 40);
+				
+				g2d.drawOval(100+t, 70+i, 40, 40);
+				g2d.drawOval(115+t, 80+i, 10, 10);
+				g2d.fillOval(255);
+				System.out.println("\n\n");
+				
+	
+			}
+						
+			
+		
+			
+		}
+public class Cat4 {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//creating the frame
+		Frame frame = new Frame();
+		// add a componenet with custom paint
+		
+		frame.add(new CustomPaintComponent());
+		
+		// Display frame
+		int frameWidth  = 700;
+		int frameHeight = 700;
+		
+		frame.setSize(frameWidth, frameHeight);
+		
+		frame.setVisible(true);
+
+	}
+	
+	static class CustomPaintComponent extends Component {
+		public void paint (Graphics g) {
+			//retrive graphics content
+			Graphics2D g2d = (Graphics2D)g;
+			//Draw and oval
+			
+			int x=0;
+			int y=0;
+			int w = getSize().width-1;
+			int h = getSize().height-1;
+			
+			int i;
+			int t=0;
+			
+			for (i=0;i<40;i++) {
+				
+				 t=t+70;
+				g2d.drawOval(50+t, 100+i, 70, 40);
+				
+				g2d.drawOval(100+t, 70+i, 40, 40);
+				g2d.drawOval(115+t, 80+i, 10, 10);
+				g2d.fillOval(255);
+				System.out.println("\n\n");
+				
+	
+			}
+						
+			
+		
+			
+		}
