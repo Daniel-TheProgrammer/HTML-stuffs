@@ -1,0 +1,80 @@
+<style media="screen">
+    body{
+      margin: 0;
+    }
+
+    header{
+      border-bottom-style: solid;
+    }
+
+    header, footer{
+      text-align: center;
+      border-width: thin;
+      padding: 5px;
+      background-color: #bbb
+    }
+
+    article{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #f{
+      background-color: white;
+      width: 60%;
+      max-width: 400px;
+      margin: 20px 0;
+      box-shadow: 5px 5px 10px #555;
+    }
+
+    #f h3{
+      background-color: teal;
+      margin-top: 0;
+      padding: 20px;
+    }
+
+    #form{
+      margin-bottom: 20px;
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Designed By Daniel The Programmer */
+    form input{
+      margin: 10px 0;
+      width: 50%;
+      border-style: none;
+      border-bottom-style: solid;
+      border-width: thin;
+      height: 30px;
+      padding: 0 5px;
+    }
+
+    form input[type="submit"]:hover{
+      box-shadow: 5px 5px 5px #bbb;
+    }
+
+    /* for input fields */
+    form input:hover{
+      border-style: solid;
+    }
+
+    footer{
+      border-top-style: solid;
+      border-top-width: thin;
+    }
+
+    @media only screen and (max-width: 400px){
+      #f{
+        width: 90%;
+      }
+
+      form input{
+        width: 65%;
+      }
+    }
