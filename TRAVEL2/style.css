@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+}
+nav ul{
+    margin-bottom: 0px;
+    height: 65px;
+    background-color:#007bff;
+    list-style: none;
+    font-weight: 900;
+    font-family: arial;
+}
+nav ul li{
+    margin-left: 100px;
+    margin-top: 13px;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    float: left;
+}
+div.head{
+    height: 240px;
+    color: white;
+    background-color: rgb(45, 45, 126);
+    margin: 0px;
+    padding: 20px 200px 10px 100px;
+}
+div.head img{
+    width: 40%;
+    height: 100%;
+    align-items: center;
+}
+div.head .right{
+    float: right;
+    text-align: center;
+}
+div.head span2{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: arial;
+    text-transform: uppercase;
+}
+div.head span1{
+    font-size: 50px;
+    font-family: 'Vladimir Script';
+}
+div.welcome{
+    text-align: center;
+    font-size: 50px;
+    font-family: arial;
+    margin-top: 20px;
+    font-weight: 900;
+    color: rgb(37, 36, 36);
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(58, 74, 131);
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 29px;
+    font-size: 23px;
+
+}
+
+
+@media screen and (max-width: 988px) {
+    
+nav ul li{
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+nav ul{
+    height: 50px;
+}
+}
+
+
+@media screen and (max-width: 898px) {
+    div.head{
+        text-align: center;
+        padding: 0 5px 0 10px;
+    }
+    div.head img{
+        align-items: center;
+        margin-top: 20px;
+    }
+    div.head .right{
+        float: right;
+        text-align: center;
+    }
+    div.head span2{
+        font-size: 39px;
+    }
+    div.head span1{
+        font-size: 36px;
+    }
+
+
+}
+
+@media screen and (max-width: 780px) {
+    footer{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+
+    nav ul{
+        height: 40px;
+    }
+    nav ul li{
+        margin-left: 20px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    div.head{
+        height: 290px;
+        padding-top: 20px;
+    }
+    div.head img{
+        align-items: center;
+        width: 80%;
+        height: 120px;
+    }
+    div.head .right{
+        text-align: center;
+        width: 100%;
+    }
+    div.head span2{
+        font-size: 30px;
+    }
+    div.head span1{
+        font-size: 35px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    nav ul{
+        height: 40px;
+    }
+    nav ul li{
+        margin-left: 20px;
+        margin-top: 9px;
+        font-size: 14px;
+        text-align: center;
+    }
+    div.head{
+        height: 300px;
+        padding: 10px 2px 2px 2px;
+    }
+    div.head img{
+        align-items: center;
+    }
+    div.head .right{
+        text-align: center;
+    }
+    div.head span2{
+        font-size: 35px;
+    }
+    div.head span1{
+        font-size: 40px;
+    }
+    div.welcome{
+        text-align: center;
+
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,41 @@
+p{
+    color:blue;background-color: red;
+}
+h1{
+    color: brown;background-color: lightgreen;
+}
+#second-para{
+    color: lightgreen; background-color: red;
+}
+.first-class{
+    color: red;background-color: yellow;
+}
+h1{
+    background-image: url('');
+    background-size:100% 100%;
+    background-repeat: repeat-x;
+    background-position: right bottom;
+    border: lightpink;
+    width: 400%
+    height: 400px;
+    margin: 50px; 50px; 50;
+    margin-top:50px;
+    padding: top 50;
+}
+#second-para{
+    color: white;
+    background-color: red;
+    text-align: center;
+    text-decoration:  line-through;
+    text-transform: uppercase;
+    line-height: 40px;
+    
+}
+.first-class{
+    color: chartreuse;
+}
+.basic-para{
+    background: lightblue;
+    float: right;
+    width: 300px;
+}
